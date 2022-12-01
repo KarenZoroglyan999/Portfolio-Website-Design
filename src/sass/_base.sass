@@ -209,6 +209,11 @@ html
     background-color: $color-blue-dark
     &__container
         position: relative
+        display: flex
+    &__right-wrapper
+        width: 50%
+    &__left-wrapper
+        width: 50%
     &__title
         padding-top: 26rem
         padding-left: 9.6rem
@@ -226,3 +231,59 @@ html
         position: absolute
         top: 75rem
         left: 30.2rem
+    &__button-item
+        font-weight: 700
+        font-size: 1.8rem
+        color: $color-gray-light
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5)
+        padding: 1rem 3.2rem
+        background-color: $color-blue-light
+        border: none
+        border-radius: 2.4rem
+    &__keyboard
+        position: absolute
+        top: 6rem
+        right: 47rem
+    &__mail
+        position: absolute
+        top: 78rem
+        right: 16.5rem
+
+.form
+    padding-top: 25.8rem
+    &__flex
+        display: flex
+    &__input
+        display: inline-block
+        width: 29rem
+        font-weight: 700
+        font-size: 1.8rem
+        border: none
+        border-radius: 1.6rem
+        padding: 1.6rem 21rem 1.6rem 2.4rem
+        color: $color-gray-light
+        background-color: $color-arsenic
+        margin-right: 2.4rem
+    span
+        font-weight: 700
+        font-size: 1.8rem
+        line-height: 2.7rem
+        color: #EEEEEE
+        margin-bottom: 1rem
+        // opacity: 0
+        // visibility: hidden
+        display: block
+    &__message
+        display: block
+        font-weight: 700
+        font-size: 1.8rem
+        background-color: $color-arsenic
+        color: $color-gray-light
+        border: none
+        border-radius: 1.6rem
+        padding: 1.6rem 49rem 24rem 2.4rem
+        width: 60rem
+        margin-bottom: 2.4rem
+
+.card-box
+    margin-bottom: 2.4rem
